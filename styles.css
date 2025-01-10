@@ -1,0 +1,113 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.lap-list {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(14, 1, 1);
+  justify-content: end;
+  align-items: end;
+}
+.lap-label {
+  display: flex;
+  margin-right: 150px;
+  margin-bottom: 10px;
+}
+body {
+  background-color: #5778d1;
+  background-image: url(../asserts/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  color: rgb(14, 2, 2) !important;
+
+  text-decoration: none;
+  padding: 20px;
+}
+a {
+  color: rgb(12, 1, 1) !important;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 40px;
+
+  text-align: justify;
+  justify-content: space-between;
+  gap: 300px;
+}
+a:hover {
+  box-shadow: rgba(253, 251, 251, 0.849);
+}
+
+.container {
+  background-color: #0f0f0f;
+  width: 40%;
+  min-width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 20px 0;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(8, 0, 0, 0.719);
+}
+
+.timer-display {
+  position: relative;
+  width: 92%;
+  background: #080101;
+  left: 4%;
+  font-family: "Roboto mono", monospace;
+  color: #6823f1;
+  font-size: 30px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(43, 1, 99, 0.25);
+}
+
+.buttons {
+  width: 90%;
+  margin: 60px auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  gap:1rem;
+}
+
+.buttons button {
+  width: 120px;
+  height: 45px;
+  background-color: #6e2df1;
+  color: #d8bcbc;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttons button:nth-last-child(2) {
+  background-color: #5509e3;
+}
+
+.buttons button:nth-last-child(1) {
+  background-color: #6e2df1;
+}
+
+.buttons button:hover {
+  box-shadow: 0 0 20px rgba(24, 23, 23, 0.25);
+}
