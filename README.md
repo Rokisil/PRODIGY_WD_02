@@ -1,2 +1,3 @@
 # PRODIGY_WD_02
-Web Development Projects Overview  I have developed a series of web projects using foundational web technologies: HTML, CSS, and JavaScript. These projects showcase my ability to create visually appealing, responsive, and interactive web experiences.
+TASK 2 STOPWACTCH WEB APPLICATION
+To build a stopwatch web application,using HTML, CSS, and JavaScript. HTML is used to structure the elements of the application. By implementing functions for starting, pausing, and resetting the stopwatch, as well as tracking and displaying lap times, users can accurately measure and record time intervals. With these technologies and functionalities, to create an interactive and user-friendly stopwatch web application.
